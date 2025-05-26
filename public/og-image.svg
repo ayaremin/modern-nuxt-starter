@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <rect width="1200" height="630" fill="url(#gradient-bg)"/>
+  
+  <!-- Pattern overlay -->
+  <rect width="1200" height="630" fill="url(#dots-pattern)" fill-opacity="0.1"/>
+  
+  <!-- Content container -->
+  <g transform="translate(100, 100)">
+    <!-- Logo -->
+    <g transform="translate(0, 50) scale(3)">
+      <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M2 17L12 22L22 17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M2 12L12 17L22 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    
+    <!-- Brand name -->
+    <text x="120" y="80" fill="white" font-family="system-ui, -apple-system" font-size="64" font-weight="700">
+      tani<tspan font-weight="400">.ai</tspan>
+    </text>
+    
+    <!-- Motto -->
+    <text x="120" y="140" fill="white" font-family="system-ui, -apple-system" font-size="32" font-weight="400" opacity="0.9">
+      Engineering Team Analytics Platform
+    </text>
+    
+    <!-- Description -->
+    <text x="0" y="250" fill="white" font-family="system-ui, -apple-system" font-size="24" font-weight="400" opacity="0.8">
+      <tspan x="0" dy="0">Get real-time insights into your engineering team's performance.</tspan>
+      <tspan x="0" dy="35">Track productivity, code quality, and delivery metrics to make</tspan>
+      <tspan x="0" dy="35">data-driven decisions and optimize team efficiency.</tspan>
+    </text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="1000" cy="100" r="200" fill="url(#gradient-circle)" opacity="0.2"/>
+  <circle cx="200" cy="500" r="150" fill="url(#gradient-circle-2)" opacity="0.2"/>
+  
+  <!-- Definitions -->
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="gradient-bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    
+    <!-- Circle gradients -->
+    <radialGradient id="gradient-circle" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="white"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="gradient-circle-2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="white"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Dot pattern -->
+    <pattern id="dots-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="white"/>
+    </pattern>
+  </defs>
+</svg> 
